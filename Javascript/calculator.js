@@ -28,6 +28,6 @@ function doTheMath(f, o, s) {
   const operation = await readline.question("Enter operation:(+, -, *, /):");
   const second_number = await readline.question("Enter second number:");
   const output = doTheMath(first_number, operation, second_number);
-  console.log("result:", output);
+  console.log("Result:", output);
   readline.close();
 })();
